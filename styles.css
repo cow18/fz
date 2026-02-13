@@ -1,0 +1,156 @@
+
+
+body {
+    background-image: url("zorzora.jpg"); 
+    background-repeat: repeat;
+    background-position: top left;
+    background-attachment: scroll;
+
+    color: #ffffff; 
+    font-family: "MS Gothic", "Osaka", monospace;
+    font-size: 13px;
+    margin: 0;
+    padding: 10px;
+}
+
+
+
+h1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+
+    color: #000000; 
+}
+
+
+
+a {
+    color: #ffffff; 
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ff66cc; 
+}
+
+
+
+table {
+    background-image: url("zorualaugh.gif");
+    background-repeat: repeat;
+    background-position: top left;
+
+    border: 1px solid #b7c5d9;
+}
+
+
+
+td:first-child {
+    background-image: url("zoruamask.jpg");
+    background-repeat: repeat;
+    background-position: top left;
+
+    border-right: 1px solid #b7c5d9;
+
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+
+td:last-child {
+    background-image: url("sadzorua.gif");
+    background-repeat: repeat;
+    background-position: top left;
+}
+
+
+
+hr {
+    border: none;
+    border-top: 1px solid #b7c5d9;
+    margin: 8px 0;
+}
+
+
+
+.gallery img {
+    width: 140px;
+    margin: 4px;
+    border: 1px solid #999999;
+    background-color: #ffffff;
+}
+
+
+
+pre {
+    font-family: "Courier New", monospace;
+    font-size: 10px;
+    line-height: 1.2;
+
+    color: #ffffff; 
+
+    background-image: url("zoruacool.gif");
+    background-repeat: repeat;
+    background-position: top left;
+
+    padding: 8px;
+    border: 1px solid #b7c5d9;
+    overflow-x: auto;
+}
+
+
+
+small {
+    font-size: 11px;
+    color: #333333; 
+}
+
+@media screen and (max-width: 768px) {
+
+    table {
+        width: 100% !important;
+    }
+
+    td {
+        display: block;
+        width: 100% !important;
+    }
+
+    td:first-child {
+        border-right: none;
+        margin-bottom: 20px;
+    }
+
+    hr {
+        width: 100% !important;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    body {
+        font-size: 15px;
+    }
+
+    .gallery img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    iframe {
+        height: 140px;
+    }
+
+    pre {
+        font-size: 8px;
+    }
+
+}
